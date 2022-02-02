@@ -99,6 +99,7 @@ textarea {
 html {
   background-color: #000;
   height: 100%;
+  background: url("../img/coding-comp.jpg");
 }
 
 body {
@@ -108,7 +109,12 @@ body {
   height: 100%;
 }
 
-.wrapper {
+.intro {
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.wrapper-1 {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   font-size: 0.5em;
@@ -117,7 +123,7 @@ body {
   margin: 5px;
 }
 
-.div-1, .div-2, .div-3 {
+.who-i-am, .what-i-do, .why-i-am {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   height: 300px;
   display: flex;
@@ -129,14 +135,11 @@ body {
   border-right-style: outset;
   border-color: ghostwhite;
   border-width: 0.25px;
-  color: #fff;
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-  line-height: 1.25em;
+  line-height: 1.3em;
+  color: #fff;
   font-weight: lighter;
   font-size: 1.75em;
-
-
-
 
 /* ==========================================================================
    Helper classes
