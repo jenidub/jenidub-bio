@@ -98,48 +98,52 @@ textarea {
 
 html {
   background-color: #000;
-  height: 100%;
+  width: 100%;
   background: url("../img/coding-comp.jpg");
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
-  font-size: 1.25em;
-  height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .intro {
     color: #fff;
-    margin-bottom: 50px;
+    padding: 10px 20px;
 }
 
-.wrapper-1 {
+.intro h1 {
+    font-size: 1.75em;
+    font-weight: 400px;
+}
+
+.intro h2 {
+    font-size: 1.25em;
+    font-weight: 200px;
+}
+
+.content {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
-  font-size: 0.5em;
+  /*font-weight: 700;*/
   display: flex;
-  justify-content: space-between;
-  margin: 5px;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  font-size: 1em;
 }
 
 .who-i-am, .what-i-do, .why-i-am {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  height: 300px;
-  display: flex;
-  width: 30%;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  margin: 2px;
-  border-right-style: outset;
-  border-color: ghostwhite;
-  border-width: 0.25px;
+  /*padding: 20px;
+  margin: 2px;*/
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-  line-height: 1.3em;
   color: #fff;
   font-weight: lighter;
-  font-size: 1.75em;
+  padding-left: 5px;
+  width: 90%;
+}
 
 /* ==========================================================================
    Helper classes
